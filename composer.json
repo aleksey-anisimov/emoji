@@ -1,0 +1,46 @@
+{
+    "name": "anisimov/emoji",
+    "description": "Allows to detect emoji, remove emoji, encode emoji and decode emoji in string.",
+    "keywords": [
+        "emoji",
+        "detect emoji",
+        "remove emoji",
+        "encode emoji",
+        "decode emoji",
+        "encode",
+        "decode",
+        "encoding",
+        "decoding",
+        "detecting emoji",
+        "removing emoji",
+        "encoding emoji",
+        "decoding emoji"
+    ],
+    "homepage": "https://github.com/aleksey-anisimov/emoji",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anisimov\\Emoji\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anisimov\\Emoji\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksey Anisimov",
+            "email": "a@anisimov.email"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
